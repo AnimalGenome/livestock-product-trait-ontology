@@ -1,13 +1,13 @@
 format-version: 1.2
-date: 28:09:2018 15:24
+date: 01:12:2016 11:03
 saved-by: caripark
-auto-generated-by: OBO-Edit 2.3.1
+auto-generated-by: OBO-Edit 2.1
 subsetdef: slim_cattle "ATO Cattle Slim"
 subsetdef: slim_chkn "ATO Chicken Slim"
 subsetdef: slim_pig "ATO Pig Slim"
 subsetdef: slim_sheep "ATO Sheep Slim"
 default-namespace: Product.ontology
-data version: 2.2
+RGDformat-version: 1.2
 
 [Term]
 id: ID:0000000
@@ -351,7 +351,6 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk cis-10-heptadecenoic acid content" EXACT []
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2011-10-26T10:57:39Z
@@ -364,7 +363,6 @@ subset: slim_cattle
 subset: slim_sheep
 synonym: "milk cis-11-octadecenoic acid content" EXACT []
 synonym: "milk cis-vaccenic acid content" EXACT []
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2011-10-26T11:12:58Z
@@ -1751,76 +1749,6 @@ created_by: caripark
 creation_date: 2016-12-01T10:42:53Z
 
 [Term]
-id: LPT:0000171
-name: milk fatty acid cis-9-C10:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a ten-carbon backbone and cis double bond at C-9" [VTO:CP]
-subset: slim_cattle
-subset: slim_pig
-subset: slim_sheep
-is_a: LPT:0000177 ! milk cis fatty acid content
-is_a: LPT:0010373 ! milk monounsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T13:36:14Z
-
-[Term]
-id: LPT:0000172
-name: milk fatty acid cis-9-C20:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-9" [VTO:CP]
-subset: slim_cattle
-subset: slim_pig
-subset: slim_sheep
-synonym: "milk cis-9-eicosenoic acid content" EXACT []
-is_a: LPT:0000177 ! milk cis fatty acid content
-is_a: LPT:0010373 ! milk monounsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T13:59:54Z
-
-[Term]
-id: LPT:0000173
-name: milk fatty acid cis-8,11,14-C20:3 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with a twenty-carbon backbone" [VTO:CP]
-synonym: "milk cis-8,11,14-eicosatrienoic acid content" EXACT []
-is_a: LPT:0000177 ! milk cis fatty acid content
-is_a: LPT:0010323 ! milk omega-6 fatty acid content
-is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T14:02:14Z
-
-[Term]
-id: LPT:0000174
-name: milk fatty acid trans-9-C16:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a trans double bond at C-9" [VTO:CP]
-synonym: "milk palmitelaidic acid content" EXACT []
-synonym: "milk trans-9-hexadecenoic acid content" EXACT []
-is_a: LPT:0010373 ! milk monounsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T14:22:28Z
-
-[Term]
-id: LPT:0000175
-name: milk fatty acid trans-16-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-16" [VTO:CP]
-synonym: "milk trans-16-octadecenoic acid content" EXACT []
-is_a: LPT:0010373 ! milk monounsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T14:37:02Z
-
-[Term]
-id: LPT:0000176
-name: milk trans fatty acid content
-is_obsolete: true
-created_by: caripark
-creation_date: 2018-06-12T14:55:03Z
-
-[Term]
-id: LPT:0000177
-name: milk cis fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of unsaturated fatty acids in which all double bonds are in the cis configuration" [VTO:CP]
-is_a: LPT:0010305 ! milk unsaturated fatty acid content
-created_by: caripark
-creation_date: 2018-06-12T15:03:28Z
-
-[Term]
 id: LPT:0004047
 name: milk composition trait
 def: "any measurable or observable characteristic related to the qualitative or quantitative makeup of milk" [MGI:smb, VTO:CP]
@@ -2611,8 +2539,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid C11:0 concentration" RELATED []
 synonym: "milk fatty acid C11:0 percentage" RELATED []
-synonym: "milk undecanoic acid content" EXACT []
-synonym: "milk undecylic acid content" EXACT []
 xref: ATOL:0000645
 is_a: LPT:0010304 ! milk saturated fatty acid content
 created_by: caripark
@@ -2793,7 +2719,7 @@ creation_date: 2010-05-24T10:40:54Z
 [Term]
 id: LPT:0010325
 name: milk fatty acid cis-9,cis-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with an eighteen-carbon backbone" [ATOL:0000657, VTO:CP, VTO:INRA]
+def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-6 fatty acid with an eighteen-carbon backbone" [ATOL:0000657, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2806,7 +2732,6 @@ synonym: "milk linoleic acid concentration" EXACT []
 synonym: "milk linoleic acid content" RELATED []
 synonym: "milk linoleic acid percentage" RELATED []
 xref: ATOL:0000657
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010323 ! milk omega-6 fatty acid content
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
 created_by: caripark
@@ -2825,7 +2750,6 @@ synonym: "milk myristoleic acid concentration" EXACT []
 synonym: "milk myristoleic acid content" EXACT []
 synonym: "milk myristoleic acid percentage" RELATED []
 xref: ATOL:0000658
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T11:19:21Z
@@ -2840,7 +2764,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-11-C16:1 concentration" RELATED []
 synonym: "milk fatty acid cis-11-C16:1 percentage" RELATED []
 xref: ATOL:0000659
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T12:39:39Z
@@ -2852,11 +2775,9 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
-synonym: "milk cis-9-heptadecenoic acid content" EXACT []
 synonym: "milk fatty acid cis-9-C17:1 concentration" RELATED []
 synonym: "milk fatty acid cis-9-C17:1 percentage" RELATED []
 xref: ATOL:0000660
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T12:39:39Z
@@ -2888,7 +2809,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid trans-4-C18:1 concentration" RELATED []
 synonym: "milk fatty acid trans-4-C18:1 percentage" RELATED []
-synonym: "milk trans-4-octadecenoic acid content" EXACT []
 xref: ATOL:0000662
 is_a: LPT:0010321 ! milk trans fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
@@ -2920,7 +2840,6 @@ subset: slim_sheep
 synonym: "milk fatty acid trans-6-8-C18:1 concentration" RELATED []
 synonym: "milk fatty acid trans-6-8-C18:1 content" EXACT []
 synonym: "milk fatty acid trans-6-8-C18:1 percentage" RELATED []
-synonym: "milk trans-6/8=octadecenoic acid content" EXACT []
 xref: ATOL:0000664
 is_a: LPT:0010321 ! milk trans fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
@@ -2936,7 +2855,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid trans-9-C18:1 concentration" RELATED []
 synonym: "milk fatty acid trans-9-C18:1 percentage" RELATED []
-synonym: "milk trans-9-octadecenoic acid content" EXACT []
 xref: ATOL:0000665
 is_a: LPT:0010321 ! milk trans fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
@@ -2952,7 +2870,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid trans-10-C18:1 concentration" RELATED []
 synonym: "milk fatty acid trans-10-C18:1 percentage" RELATED []
-synonym: "milk trans-10-octadecenoic acid content" EXACT []
 xref: ATOL:0000666
 is_a: LPT:0010321 ! milk trans fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
@@ -3010,11 +2927,9 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
-synonym: "milk cis-12-octadecenoic acid content" EXACT []
 synonym: "milk fatty acid cis-12-C18:1 concentration" RELATED []
 synonym: "milk fatty acid cis-12-C18:1 percentage" RELATED []
 xref: ATOL:0000669
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T01:28:26Z
@@ -3029,7 +2944,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-13-C18:1 concentration" RELATED []
 synonym: "milk fatty acid cis-13-C18:1 percentage" RELATED []
 xref: ATOL:0000670
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T01:28:26Z
@@ -3044,7 +2958,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-15-C18:1 concentration" RELATED []
 synonym: "milk fatty acid cis-15-C18:1 percentage" RELATED []
 xref: ATOL:0000671
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T01:28:26Z
@@ -3103,7 +3016,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid trans-9,trans-12-C18:2 concentration" RELATED []
 synonym: "milk fatty acid trans-9,trans-12-C18:2 percentage" RELATED []
-synonym: "milk trans-9,trans-12-octadecadienoic acid content" EXACT []
 xref: ATOL:0000675
 is_a: LPT:0010321 ! milk trans fatty acid content
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
@@ -3134,7 +3046,6 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid trans-11,cis-15-C18:2 concentration" RELATED []
 synonym: "milk fatty acid trans-11,cis-15-C18:2 percentage" RELATED []
-synonym: "milk trans-11,cis-15-octadecadienoic acid content" EXACT []
 xref: ATOL:0000677
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
 created_by: caripark
@@ -3165,7 +3076,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-9,cis-11-C18:2 concentration" RELATED []
 synonym: "milk fatty acid cis-9,cis-11-C18:2 percentage" RELATED []
 xref: ATOL:0000679
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T02:18:24Z
@@ -3179,8 +3089,8 @@ subset: slim_pig
 subset: slim_sheep
 synonym: "milk fatty acid cis-9,trans-11-C18:2 concentration" RELATED []
 synonym: "milk fatty acid cis-9,trans-11-C18:2 percentage" RELATED []
-synonym: "milk rumenic acid concentration" RELATED []
-synonym: "milk rumenic acid content" EXACT []
+synonym: "milk rumenic acid concentration" EXACT []
+synonym: "milk rumenic acid content" RELATED []
 synonym: "milk rumenic acid percentage" RELATED []
 xref: ATOL:0000680
 is_a: LPT:0010321 ! milk trans fatty acid content
@@ -3390,7 +3300,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-8-C20:1 concentration" RELATED []
 synonym: "milk fatty acid cis-8-C20:1 percentage" RELATED []
 xref: ATOL:0000694
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T03:28:22Z
@@ -3405,7 +3314,6 @@ subset: slim_sheep
 synonym: "milk fatty acid cis-11-C20:1 concentration" RELATED []
 synonym: "milk fatty acid cis-11-C20:1 percentage" RELATED []
 xref: ATOL:0000695
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T03:28:22Z
@@ -3436,7 +3344,6 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
-synonym: "milk eicosapentaenoic acid content" EXACT []
 synonym: "milk fatty acid C20:5 n-3 concentration" EXACT []
 synonym: "milk fatty acid C20:5 n-3 content" RELATED []
 synonym: "milk fatty acid C20:5 n-3 percentage" RELATED []
@@ -3531,7 +3438,6 @@ synonym: "milk fatty acid cis-9-C18:1 percentage" RELATED []
 synonym: "milk oleic acid concentration" RELATED []
 synonym: "milk oleic acid content" RELATED []
 synonym: "milk oleic acid percentage" RELATED []
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T03:54:00Z
@@ -3549,7 +3455,6 @@ synonym: "milk palmitoleic acid concentration" EXACT []
 synonym: "milk palmitoleic acid content" RELATED []
 synonym: "milk palmitoleic acid percentage" RELATED []
 xref: ATOL:0000702
-is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-05-24T03:54:00Z
@@ -4645,7 +4550,7 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_pig
 synonym: "meat fatty acid cis-9-C16:1 concentration" RELATED []
-synonym: "meat fatty acid cis-9-C16:1 percentage" RELATED []
+synonym: "meat fatty acid cis-9-C18:1 percentage" RELATED []
 synonym: "meat palmitoleic acid content" EXACT []
 is_a: LPT:0000012 ! meat monounsaturated fatty acid content
 created_by: caripark
