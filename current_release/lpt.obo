@@ -1,5 +1,6 @@
 format-version: 1.2
-date: 12:06:2018 15:16
+data-version: 3.1
+date: 08:09:2021 15:53
 saved-by: caripark
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: slim_cattle "ATO Cattle Slim"
@@ -7,7 +8,7 @@ subsetdef: slim_chkn "ATO Chicken Slim"
 subsetdef: slim_pig "ATO Pig Slim"
 subsetdef: slim_sheep "ATO Sheep Slim"
 default-namespace: Product.ontology
-data-version: 2.1
+data version: 2.2
 
 [Term]
 id: ID:0000000
@@ -105,7 +106,7 @@ creation_date: 2011-10-21T03:56:04Z
 [Term]
 id: LPT:0000009
 name: milk fatty acid C15:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a fifteen-carbon backbone" [VTO:CP]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a fifteen-carbon backbone." [VTO:CP]
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk pentadecanoic acid content" EXACT []
@@ -117,7 +118,7 @@ creation_date: 2011-10-25T09:52:43Z
 [Term]
 id: LPT:0000010
 name: milk fatty acid C24:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a twenty-four-carbon backbone" [VTO:CP]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a twenty-four-carbon backbone." [VTO:CP]
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk tetracosanoic acid content" EXACT []
@@ -128,7 +129,7 @@ creation_date: 2011-10-25T09:57:49Z
 [Term]
 id: LPT:0000011
 name: milk fatty acid C12:1(n-3) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twelve-carbon backbone and one double bond" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twelve-carbon backbone and one double bond." [VTO:CP]
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk lauroleic acid content" EXACT []
@@ -347,7 +348,7 @@ creation_date: 2011-10-26T10:43:27Z
 [Term]
 id: LPT:0000031
 name: milk fatty acid cis-10-C17:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-10" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-10." [VTO:CP]
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk cis-10-heptadecenoic acid content" EXACT []
@@ -359,7 +360,7 @@ creation_date: 2011-10-26T10:57:39Z
 [Term]
 id: LPT:0000032
 name: milk fatty acid cis-11-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-11" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-11." [VTO:CP]
 subset: slim_cattle
 subset: slim_sheep
 synonym: "milk cis-11-octadecenoic acid content" EXACT []
@@ -1453,7 +1454,7 @@ creation_date: 2014-07-24T11:34:36Z
 [Term]
 id: LPT:0000140
 name: milk vitamin B-12 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of a cobalt-containing coordination compound produced by intestinal microorganisms and also found in soil and water." [MeSH:D014805]
+def: "The proportion or amount in milk of a cobalt-containing coordination compound produced by intestinal microorganisms and also found in soil and water." [MeSH:D014805]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1521,7 +1522,7 @@ creation_date: 2014-07-31T09:51:18Z
 [Term]
 id: LPT:0000147
 name: milk non-fat solids content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of the components remaining after removal of water and fat (protein, lactose, minerals, vitamins)" [VTO:CP]
+def: "The proportion or amount in milk of the components remaining after removal of water and fat (protein, lactose, minerals, vitamins)." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1742,7 +1743,7 @@ creation_date: 2016-06-17T10:05:53Z
 [Term]
 id: LPT:0000170
 name: milk fatty acid C13:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a thirteen-carbon backbone" [VTO:CP]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a thirteen-carbon backbone." [VTO:CP]
 synonym: "milk tridecanoic acid content" EXACT []
 synonym: "milk tridecylic acid content" EXACT []
 xref: ATOL:0000253
@@ -1753,7 +1754,7 @@ creation_date: 2016-12-01T10:42:53Z
 [Term]
 id: LPT:0000171
 name: milk fatty acid cis-9-C10:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a ten-carbon backbone and cis double bond at C-9" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a ten-carbon backbone and cis double bond at C-9." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1765,7 +1766,7 @@ creation_date: 2018-06-12T13:36:14Z
 [Term]
 id: LPT:0000172
 name: milk fatty acid cis-9-C20:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-9" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-9." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1778,7 +1779,7 @@ creation_date: 2018-06-12T13:59:54Z
 [Term]
 id: LPT:0000173
 name: milk fatty acid cis-8,11,14-C20:3 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with a twenty-carbon backbone" [VTO:CP]
+def: "The proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with a twenty-carbon backbone." [VTO:CP]
 synonym: "milk cis-8,11,14-eicosatrienoic acid content" EXACT []
 is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010323 ! milk omega-6 fatty acid content
@@ -1789,7 +1790,7 @@ creation_date: 2018-06-12T14:02:14Z
 [Term]
 id: LPT:0000174
 name: milk fatty acid trans-9-C16:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a trans double bond at C-9" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a trans double bond at C-9." [VTO:CP]
 synonym: "milk palmitelaidic acid content" EXACT []
 synonym: "milk trans-9-hexadecenoic acid content" EXACT []
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
@@ -1799,7 +1800,7 @@ creation_date: 2018-06-12T14:22:28Z
 [Term]
 id: LPT:0000175
 name: milk fatty acid trans-16-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-16" [VTO:CP]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-16." [VTO:CP]
 synonym: "milk trans-16-octadecenoic acid content" EXACT []
 is_a: LPT:0010373 ! milk monounsaturated fatty acid content
 created_by: caripark
@@ -1815,10 +1816,111 @@ creation_date: 2018-06-12T14:55:03Z
 [Term]
 id: LPT:0000177
 name: milk cis fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of unsaturated fatty acids in which all double bonds are in the cis configuration" [VTO:CP]
+def: "The proportion or amount in milk fat of unsaturated fatty acids in which all double bonds are in the cis configuration." [VTO:CP]
 is_a: LPT:0010305 ! milk unsaturated fatty acid content
 created_by: caripark
 creation_date: 2018-06-12T15:03:28Z
+
+[Term]
+id: LPT:0000178
+name: milk acetone content
+def: "The proportion or amount in milk of acetone, one of the ketone bodies produced during ketoacidosis." [MeSH:D000096]
+subset: slim_cattle
+subset: slim_pig
+subset: slim_sheep
+is_a: LPT:0004047 ! milk composition trait
+created_by: caripark
+creation_date: 2021-09-08T09:34:29Z
+
+[Term]
+id: LPT:0000179
+name: milk citrate content
+def: "The proportion or amount in milk of a salt or ester of citric acid, an intermediate of the tricarboxylic acid cycle." [http://www.merriam-webster.com/dictionary/citrate]
+subset: slim_cattle
+subset: slim_pig
+subset: slim_sheep
+is_a: LPT:0004047 ! milk composition trait
+created_by: caripark
+creation_date: 2021-09-08T09:56:56Z
+
+[Term]
+id: LPT:0000180
+name: milk copper content
+def: "The proportion or amount in milk ot the heavy metal trace element with atomic symbol Cu." [MeSH:D003300]
+xref: VT:0010710
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T10:08:26Z
+
+[Term]
+id: LPT:0000181
+name: milk iodine content
+def: "The proportion or amount in milk of this nonmetallic element of the halogen group, which is especially important in thyroid hormone synthesis." [MeSH:D007455]
+xref: VT:0010824
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T10:12:19Z
+
+[Term]
+id: LPT:0000182
+name: milk iron content
+def: "The proportion or amount in milk of this metallic element that is an essential constituent of hemoglobins, cytochromes, and iron-binding proteins." [MeSH:D007501]
+xref: VT:0010711
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T10:13:43Z
+
+[Term]
+id: LPT:0000183
+name: milk manganese content
+def: "The proportion or amount in milk of a trace element (atomic symbol Mn) which is a cofactor in many enzymes." [MeSH:D008345]
+xref: VT:0010712
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T10:15:19Z
+
+[Term]
+id: LPT:0000184
+name: milk selenium content
+def: "The proportion or amount in milk of a micronutrient that protects intracellular structures against oxidative damage but it toxic in large amounts." [MeSH:D012643]
+xref: VT:0010713
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T15:24:19Z
+
+[Term]
+id: LPT:0000185
+name: milk sulfur content
+def: "The proportion or amount in milk of this element that is found in cysteine and methionine." [MeSH:D013455]
+xref: VT\::0010808
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T15:29:38Z
+
+[Term]
+id: LPT:0000186
+name: milk zinc content	
+def: "The proportion or amount in milk of this metallic element that forms an essential part of many enzymes and plays an important role in protein synthesis and cell division." [MeSH:D015032]
+xref: VT:0010714
+is_a: LPT:0010288 ! milk mineral content
+created_by: caripark
+creation_date: 2021-09-08T15:31:45Z
+
+[Term]
+id: LPT:0000187
+name: milk phosphocholine content
+def: "The proportion or amount in milk of the phosphate of choline." [CHEBI:18132]
+is_a: LPT:0004047 ! milk composition trait
+created_by: caripark
+creation_date: 2021-09-08T15:47:47Z
+
+[Term]
+id: LPT:0000188
+name: milk riboflavin content
+def: "The proportion or amount in milk of vitamin B2." [CHEBI:17015]
+is_a: LPT:0004047 ! milk composition trait
+created_by: caripark
+creation_date: 2021-09-08T15:51:13Z
 
 [Term]
 id: LPT:0004047
@@ -1932,7 +2034,7 @@ creation_date: 2009-12-14T12:47:38Z
 [Term]
 id: LPT:0010027
 name: milk fat yield
-def: "any measurable or observable characteristic related to the total amount of milk fat produced" [VTO:CP]
+def: "The total amount of milk fat produced." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1943,7 +2045,7 @@ creation_date: 2009-12-14T04:00:02Z
 [Term]
 id: LPT:0010028
 name: milk protein yield
-def: "any measurable or observable characteristic related to the total amount of milk protein produced" [VTO:CP]
+def: "The total amount of milk protein produced." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -1997,7 +2099,7 @@ creation_date: 2010-05-19T03:47:57Z
 [Term]
 id: LPT:0010261
 name: milk fat composition trait
-def: "any measurable or observable characteristic related to the qualitative or quantitative makeup of milk fat" [ATOL:0000595, VTO:CP, VTO:INRA]
+def: "Any measurable or observable characteristic related to the qualitative or quantitative makeup of milk fat." [ATOL:0000595, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2131,7 +2233,7 @@ creation_date: 2010-05-21T09:59:08Z
 [Term]
 id: LPT:0010274
 name: milk dry matter content
-def: "any measurable or observable characteristic related to the proportion or amount of dry weight (mass of solids) in milk" [ATOL:0000714, VTO:CP, VTO:INRA]
+def: "The proportion or amount of dry weight (mass of solids) in milk." [ATOL:0000714, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2254,7 +2356,7 @@ creation_date: 2010-05-21T12:27:38Z
 [Term]
 id: LPT:0010285
 name: milk nitrogen content
-def: "any measurable or observable characteristic related to the proportion or amount of this element in milk" [ATOL:0000617, VTO:INRA]
+def: "The proportion or amount of this element in milk." [ATOL:0000617, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2294,7 +2396,7 @@ creation_date: 2010-05-21T02:24:28Z
 [Term]
 id: LPT:0010288
 name: milk mineral content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of any inorganic substance that has importance in body functions" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of any inorganic substance that has importance in body functions." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2307,7 +2409,7 @@ creation_date: 2010-05-21T02:44:27Z
 [Term]
 id: LPT:0010289
 name: milk mineral yield
-def: "any measurable or observable characteristic related to the total amount in milk of any inorganic substance that has importance in body functions" [ATOL:0000621, VTO:INRA]
+def: "The total amount in milk of any inorganic substance that has importance in body functions." [ATOL:0000621, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2319,7 +2421,7 @@ creation_date: 2010-05-21T02:55:44Z
 [Term]
 id: LPT:0010290
 name: milk calcium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this metallic element" [ATOL:0000622, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this metallic element." [ATOL:0000622, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk calcium concentration" RELATED []
@@ -2331,7 +2433,7 @@ creation_date: 2010-05-21T02:58:45Z
 [Term]
 id: LPT:0010291
 name: milk potassium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this metallic element" [ATOL:0000623, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this metallic element." [ATOL:0000623, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk potassium concentration" RELATED []
@@ -2343,7 +2445,7 @@ creation_date: 2010-05-21T03:03:34Z
 [Term]
 id: LPT:0010292
 name: milk sodium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this metallic element" [ATOL:0000624, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this metallic element." [ATOL:0000624, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk sodium concentration" RELATED []
@@ -2355,7 +2457,7 @@ creation_date: 2010-05-21T03:03:34Z
 [Term]
 id: LPT:0010293
 name: milk phosphorus content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this nonmetallic element which occurs naturally in phosphates" [ATOL:0000625, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this nonmetallic element which occurs naturally in phosphates." [ATOL:0000625, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk phosphorus concentration" RELATED []
@@ -2367,7 +2469,7 @@ creation_date: 2010-05-21T03:03:34Z
 [Term]
 id: LPT:0010294
 name: milk chloride content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of any binary compound of chlorine" [ATOL:0000626, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of any binary compound of chlorine." [ATOL:0000626, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk chloride concentration" RELATED []
@@ -2379,7 +2481,7 @@ creation_date: 2010-05-21T03:03:34Z
 [Term]
 id: LPT:0010295
 name: milk magnesium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this metallic element" [ATOL:0000627, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this metallic element." [ATOL:0000627, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk magnesium concentration" RELATED []
@@ -2462,7 +2564,7 @@ creation_date: 2010-05-24T08:29:41Z
 [Term]
 id: LPT:0010303
 name: milk fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; they are saturated and unsaturated" [MeSH:D005227]
+def: "The proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; they are saturated and unsaturated." [MeSH:D005227]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2473,7 +2575,7 @@ creation_date: 2010-05-24T09:11:45Z
 [Term]
 id: LPT:0010304
 name: milk saturated fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain contains only single carbon-carbon bonds" [MeSH:D005227]
+def: "The proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain contains only single carbon-carbon bonds." [MeSH:D005227]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2484,7 +2586,7 @@ creation_date: 2010-05-24T09:17:14Z
 [Term]
 id: LPT:0010305
 name: milk unsaturated fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has one or more double or triple carbon-carbon bonds" [MeSH:D005231]
+def: "The proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has one or more double or triple carbon-carbon bonds." [MeSH:D005231]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2495,7 +2597,7 @@ creation_date: 2010-05-24T09:18:07Z
 [Term]
 id: LPT:0010306
 name: milk fatty acid C4:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a four-carbon backbone" [ATOL:0000638, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a four-carbon backbone." [ATOL:0000638, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2512,7 +2614,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010307
 name: milk fatty acid C5:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a five-carbon backbone" [ATOL:0000635, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a five-carbon backbone." [ATOL:0000635, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2526,7 +2628,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010308
 name: milk fatty acid C6:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a six-carbon backbone" [ATOL:0000640, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a six-carbon backbone." [ATOL:0000640, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2543,7 +2645,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010309
 name: milk fatty acid C7:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a seven-carbon backbone" [ATOL:0000641, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a seven-carbon backbone." [ATOL:0000641, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2557,7 +2659,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010310
 name: milk fatty acid C8:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with an eight-carbon backbone" [ATOL:0000642, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with an eight-carbon backbone." [ATOL:0000642, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2574,7 +2676,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010311
 name: milk fatty acid C9:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a nine-carbon backbone" [ATOL:0000643, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a nine-carbon backbone." [ATOL:0000643, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2588,7 +2690,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010312
 name: milk fatty acid C10:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a ten-carbon backbone" [ATOL:0000644, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a ten-carbon backbone." [ATOL:0000644, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2605,7 +2707,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010313
 name: milk fatty acid C11:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with an eleven-carbon backbone" [ATOL:0000645, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with an eleven-carbon backbone." [ATOL:0000645, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2621,7 +2723,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010314
 name: milk fatty acid C12:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a twelve-carbon backbone" [ATOL:0000646, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a twelve-carbon backbone." [ATOL:0000646, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2638,7 +2740,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010315
 name: milk fatty acid C14:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone" [ATOL:0000647, ATOL0000647:<new dbxref>, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone." [ATOL:0000647, ATOL0000647:<new dbxref>, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2655,7 +2757,7 @@ creation_date: 2010-05-24T10:13:36Z
 [Term]
 id: LPT:0010316
 name: milk fatty acid C16:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a sixteen-carbon backbone" [ATOL:0000648, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a sixteen-carbon backbone." [ATOL:0000648, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2672,7 +2774,7 @@ creation_date: 2010-05-24T10:15:41Z
 [Term]
 id: LPT:0010317
 name: milk fatty acid C17:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a seventeen-carbon backbone" [ATOL:0000649, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a seventeen-carbon backbone." [ATOL:0000649, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2689,7 +2791,7 @@ creation_date: 2010-05-24T10:15:41Z
 [Term]
 id: LPT:0010318
 name: milk fatty acid C18:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with an eighteen-carbon backbone" [ATOL:0000650, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with an eighteen-carbon backbone." [ATOL:0000650, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2706,7 +2808,7 @@ creation_date: 2010-05-24T10:15:41Z
 [Term]
 id: LPT:0010319
 name: milk fatty acid C20:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a twenty-carbon backbone" [ATOL:0000651, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a twenty-carbon backbone." [ATOL:0000651, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2722,7 +2824,7 @@ creation_date: 2010-05-24T10:15:41Z
 [Term]
 id: LPT:0010320
 name: milk fatty acid C22:0 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a saturated fatty acid with a twenty-two-carbon backbone" [ATOL:0000652, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a twenty-two-carbon backbone." [ATOL:0000652, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2736,7 +2838,7 @@ creation_date: 2010-05-24T10:15:41Z
 [Term]
 id: LPT:0010321
 name: milk trans fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of unsaturated fatty acids containing at least one double bond in the trans configuration" [MeSH:D044242, VTO:INRA]
+def: "The proportion or amount in milk fat of unsaturated fatty acids containing at least one double bond in the trans configuration." [MeSH:D044242, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2749,7 +2851,7 @@ creation_date: 2010-05-24T10:40:54Z
 [Term]
 id: LPT:0010322
 name: milk omega-3 fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of unsaturated fatty acids in which the first unsaturated bond is in the third position from the omega carbon (C18:3, n-3; C20:5, n-3; C22:6, n-3)" [MeSH:D015525, VTO:INRA]
+def: "The proportion or amount in milk fat of unsaturated fatty acids in which the first unsaturated bond is in the third position from the omega carbon (C18:3, n-3; C20:5, n-3; C22:6, n-3)." [MeSH:D015525, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2763,7 +2865,7 @@ creation_date: 2010-05-24T10:40:54Z
 [Term]
 id: LPT:0010323
 name: milk omega-6 fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of unsaturated fatty acids in which the first unsaturated bond is in the sixth position from the omega carbon (C18:2, n-6; C18:3, n-6; C20:2, n-6; C20:3, n-6; C20:4, n-6; C22:2, n-6; C22:4, n-6; C22:5, n-6)" [MeSH:D043371, VTO:INRA]
+def: "The proportion or amount in milk fat of unsaturated fatty acids in which the first unsaturated bond is in the sixth position from the omega carbon (C18:2, n-6; C18:3, n-6; C20:2, n-6; C20:3, n-6; C20:4, n-6; C22:2, n-6; C22:4, n-6; C22:5, n-6)." [MeSH:D043371, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2777,7 +2879,7 @@ creation_date: 2010-05-24T10:40:54Z
 [Term]
 id: LPT:0010324
 name: milk conjugated linoleic acid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of any/all isomers of linoleic acid in which the double bonds are conjugated (double bonds alternate with single bonds); found especially in meat and dairy products derived from ruminants" [MeSH:D044243, VTO:INRA]
+def: "The proportion or amount in milk fat of any/all isomers of linoleic acid in which the double bonds are conjugated (double bonds alternate with single bonds); found especially in meat and dairy products derived from ruminants." [MeSH:D044243, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2793,7 +2895,7 @@ creation_date: 2010-05-24T10:40:54Z
 [Term]
 id: LPT:0010325
 name: milk fatty acid cis-9,cis-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with an eighteen-carbon backbone" [ATOL:0000657, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a polyunsaturated, omega-6 fatty acid with an eighteen-carbon backbone." [ATOL:0000657, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2815,7 +2917,7 @@ creation_date: 2010-05-24T11:11:14Z
 [Term]
 id: LPT:0010326
 name: milk fatty acid cis-9-C14:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a fourteen-carbon backbone and a cis double bond at C-9" [ATOL:0000658, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a fourteen-carbon backbone and a cis double bond at C-9." [ATOL:0000658, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2833,7 +2935,7 @@ creation_date: 2010-05-24T11:19:21Z
 [Term]
 id: LPT:0010327
 name: milk fatty acid cis-11-C16:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-11" [ATOL:0000659, VTO:CP, VTO:INRA, XX:<new dbxref>]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-11." [ATOL:0000659, VTO:CP, VTO:INRA, XX:<new dbxref>]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2848,7 +2950,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010328
 name: milk fatty acid cis-9-C17:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-9" [ATOL:0000660, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-9." [ATOL:0000660, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2864,7 +2966,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010329
 name: milk fatty acid trans-11-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-11" [ATOL:0000661, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-11." [ATOL:0000661, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2882,7 +2984,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010330
 name: milk fatty acid trans-4-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-4" [ATOL:0000662, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-4." [ATOL:0000662, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2898,7 +3000,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010331
 name: milk fatty acid trans-5-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-5" [ATOL:0000663, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-5." [ATOL:0000663, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2913,7 +3015,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010332
 name: milk fatty acid trans-6/8-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at either C-6 or C-8" [ATOL:0000664, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at either C-6 or C-8." [ATOL:0000664, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2930,7 +3032,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010333
 name: milk fatty acid trans-9-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-9" [ATOL:0000665, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-9." [ATOL:0000665, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2946,7 +3048,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010334
 name: milk fatty acid trans-10-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-10" [ATOL:0000666, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-10." [ATOL:0000666, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2962,7 +3064,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010335
 name: milk fatty acid trans-13-14-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at either C-13 or C-14" [ATOL:0000667, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at either C-13 or C-14." [ATOL:0000667, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2980,7 +3082,7 @@ creation_date: 2010-05-24T12:39:39Z
 [Term]
 id: LPT:0010336
 name: milk fatty acid cis-14/trans-16-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and either a cis double bond at C-14 or a trans double bond at C-16" [VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and either a cis double bond at C-14 or a trans double bond at C-16." [VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3006,7 +3108,7 @@ creation_date: 2010-05-24T01:28:26Z
 [Term]
 id: LPT:0010338
 name: milk fatty acid cis-12-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-12" [ATOL:0000669, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-12." [ATOL:0000669, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3022,7 +3124,7 @@ creation_date: 2010-05-24T01:28:26Z
 [Term]
 id: LPT:0010339
 name: milk fatty acid cis-13-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-13" [ATOL:0000670, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-13." [ATOL:0000670, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3037,7 +3139,7 @@ creation_date: 2010-05-24T01:28:26Z
 [Term]
 id: LPT:0010340
 name: milk fatty acid cis-15-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-15" [ATOL:0000671, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-15." [ATOL:0000671, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3052,7 +3154,7 @@ creation_date: 2010-05-24T01:28:26Z
 [Term]
 id: LPT:0010341
 name: milk fatty acid cis-9,trans-13-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-13" [ATOL:0000672, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-13." [ATOL:0000672, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3067,7 +3169,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010342
 name: milk fatty acid cis-9,trans-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-12" [ATOL:0000673, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-12." [ATOL:0000673, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3082,7 +3184,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010343
 name: milk fatty acid trans-9,cis-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-12, and a trans double bond at C-9" [ATOL:0000674, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-12, and a trans double bond at C-9." [ATOL:0000674, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3097,7 +3199,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010344
 name: milk fatty acid trans-9,trans-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-12" [ATOL:0000675, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-12." [ATOL:0000675, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3113,7 +3215,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010345
 name: milk fatty acid trans-9,trans-14-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-14" [ATOL:0000676, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-14." [ATOL:0000676, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3128,7 +3230,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010346
 name: milk fatty acid trans-11,cis-15-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-11, and a cis double bond at C-15" [ATOL:0000677, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-11, and a cis double bond at C-15." [ATOL:0000677, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3143,7 +3245,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010347
 name: milk fatty acid trans-11,trans-15-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-11 and C-15" [ATOL:0000678, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-11 and C-15." [ATOL:0000678, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3158,7 +3260,7 @@ creation_date: 2010-05-24T01:44:34Z
 [Term]
 id: LPT:0010348
 name: milk fatty acid cis-9,cis-11-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and cis double bonds at C-9 and C-11" [ATOL:0000679, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and cis double bonds at C-9 and C-11." [ATOL:0000679, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3173,7 +3275,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010349
 name: milk fatty acid cis-9,trans-11-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-11" [ATOL:0000680, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-9, and a trans double bond at C-11." [ATOL:0000680, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3191,7 +3293,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010350
 name: milk fatty acid cis-12,trans-14-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-12, and a trans double bond at C-14" [ATOL:0000681, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a cis double bond at C-12, and a trans double bond at C-14." [ATOL:0000681, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3206,7 +3308,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010351
 name: milk fatty acid trans-7,cis-9-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-7, and a cis double bond at C-9" [ATOL:0000682, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-7, and a cis double bond at C-9." [ATOL:0000682, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3221,7 +3323,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010352
 name: milk fatty acid trans-8,cis-10-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-8, and a cis double bond at C-10" [ATOL:0000683, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-8, and a cis double bond at C-10." [ATOL:0000683, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3236,7 +3338,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010353
 name: milk fatty acid trans-9,cis-11-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-9, and a cis double bond at C-11" [ATOL:0000684, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-9, and a cis double bond at C-11." [ATOL:0000684, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3251,7 +3353,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010354
 name: milk fatty acid trans-10,cis-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-10, and a cis double bond at C-12" [ATOL:0000685, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-10, and a cis double bond at C-12." [ATOL:0000685, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3265,7 +3367,7 @@ creation_date: 2010-05-24T02:18:24Z
 [Term]
 id: LPT:0010355
 name: milk fatty acid trans-11,cis-13-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-11, and a cis double bond at C-13" [ATOL:0000686, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-11, and a cis double bond at C-13." [ATOL:0000686, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3279,7 +3381,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010356
 name: milk fatty acid trans-12,cis-14-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-12, and a cis double bond at C-14" [ATOL:0000687, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-12, and a cis double bond at C-14." [ATOL:0000687, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3293,7 +3395,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010357
 name: milk fatty acid trans-7,trans-9-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-7 and C-9" [ATOL:0000688, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-7 and C-9." [ATOL:0000688, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3308,7 +3410,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010358
 name: milk fatty acid trans-8,trans-10-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-8 and C-10" [ATOL:0000689, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-8 and C-10." [ATOL:0000689, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3323,7 +3425,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010359
 name: milk fatty acid trans-9,trans-11-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-11" [ATOL:0000690, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-9 and C-11." [ATOL:0000690, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3338,7 +3440,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010360
 name: milk fatty acid trans-10,trans-12-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-10 and C-12" [ATOL:0000691, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-10 and C-12." [ATOL:0000691, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3353,7 +3455,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010361
 name: milk fatty acid trans-11,trans-13-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-11 and C-13" [ATOL:0000692, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-11 and C-13." [ATOL:0000692, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3368,7 +3470,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010362
 name: milk fatty acid trans-12,trans-14-C18:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-12 and C-14" [ATOL:0000693, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-12 and C-14." [ATOL:0000693, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3383,7 +3485,7 @@ creation_date: 2010-05-24T02:47:15Z
 [Term]
 id: LPT:0010363
 name: milk fatty acid cis-8-C20:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-8" [ATOL:0000694, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-8." [ATOL:0000694, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3398,7 +3500,7 @@ creation_date: 2010-05-24T03:28:22Z
 [Term]
 id: LPT:0010364
 name: milk fatty acid cis-11-C20:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-11" [ATOL:0000695, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and cis double bond at C-11." [ATOL:0000695, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3413,7 +3515,7 @@ creation_date: 2010-05-24T03:28:22Z
 [Term]
 id: LPT:0010365
 name: milk fatty acid C20:4(n-6) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-6 fatty acid with a twenty-carbon backbone and four double bonds" [ATOL:0000696, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated, omega-6 fatty acid with a twenty-carbon backbone and four double bonds." [ATOL:0000696, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3432,7 +3534,7 @@ creation_date: 2010-05-24T03:28:22Z
 [Term]
 id: LPT:0010366
 name: milk fatty acid C20:5(n-3) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-carbon backbone and five double bonds" [ATOL:0000697, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-carbon backbone and five double bonds." [ATOL:0000697, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3451,7 +3553,7 @@ creation_date: 2010-05-24T03:28:22Z
 [Term]
 id: LPT:0010367
 name: milk fatty acid C22:5(n-3) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-two-carbon backbone and five double bonds" [ATOL:0000701, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-two-carbon backbone and five double bonds." [ATOL:0000701, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3469,7 +3571,7 @@ creation_date: 2010-05-24T03:43:23Z
 [Term]
 id: LPT:0010368
 name: milk fatty acid C22:6(n-3) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-two-carbon backbone and six double bonds" [ATOL:0000698, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with a twenty-two-carbon backbone and six double bonds." [ATOL:0000698, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3487,7 +3589,7 @@ creation_date: 2010-05-24T03:43:23Z
 [Term]
 id: LPT:0010369
 name: milk fatty acid C18:3(n-3) content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with an eighteen-carbon backbone and three double bonds" [ATOL:0000699, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid with an eighteen-carbon backbone and three double bonds." [ATOL:0000699, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3508,7 +3610,7 @@ creation_date: 2010-05-24T03:43:23Z
 [Term]
 id: LPT:0010370
 name: milk fatty acid C20:2 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and two double bonds" [ATOL:0000651, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a twenty-carbon backbone and two double bonds." [ATOL:0000651, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3522,7 +3624,7 @@ creation_date: 2010-05-24T03:51:22Z
 [Term]
 id: LPT:0010371
 name: milk fatty acid cis-9-C18:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-9" [VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-9." [VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3539,7 +3641,7 @@ creation_date: 2010-05-24T03:54:00Z
 [Term]
 id: LPT:0010372
 name: milk fatty acid cis-9-C16:1 content
-def: "any measurable or observable characteristic related to the proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-9" [ATOL:0000702, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-9." [ATOL:0000702, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3557,7 +3659,7 @@ creation_date: 2010-05-24T03:54:00Z
 [Term]
 id: LPT:0010373
 name: milk monounsaturated fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has only one double or triple carbon-carbon bond" [VTO:CP]
+def: "The proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has only one double or triple carbon-carbon bond." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3568,7 +3670,7 @@ creation_date: 2010-05-24T03:59:27Z
 [Term]
 id: LPT:0010374
 name: milk polyunsaturated fatty acid content
-def: "any measurable or observable characteristic related to the proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has two or more double or triple carbon-carbon bonds" [VTO:CP]
+def: "The proportion or amount of organic, monobasic acids derived from hydrocarbons present in milk fat; the carbon chain has two or more double or triple carbon-carbon bonds." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3589,7 +3691,7 @@ creation_date: 2010-05-26T10:26:16Z
 [Term]
 id: LPT:0010376
 name: milk soluble calcium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of calcium not linked to casein micelles; may be in an associated form (with citrate, inorganic phosphate, or chloride) or a free/ionic form" [ATOL:0000706, VTO:INRA]
+def: "The proportion or amount in milk of calcium not linked to casein micelles; may be in an associated form (with citrate, inorganic phosphate, or chloride) or a free/ionic form." [ATOL:0000706, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk soluble calcium concentration" RELATED []
@@ -3601,7 +3703,7 @@ creation_date: 2010-05-26T10:52:07Z
 [Term]
 id: LPT:0010377
 name: milk free calcium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of unlinked/unassociated calcium in ionic form" [ATOL:0000707, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of unlinked/unassociated calcium in ionic form." [ATOL:0000707, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk free calcium concentration" RELATED []
@@ -3615,7 +3717,7 @@ creation_date: 2010-05-26T10:52:07Z
 [Term]
 id: LPT:0010378
 name: milk colloidal calcium content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of the calcium linked to casein micelles" [ATOL:0000708, VTO:INRA]
+def: "The proportion or amount in milk of the calcium linked to casein micelles." [ATOL:0000708, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk colloidal calcium concentration" RELATED []
@@ -3638,7 +3740,7 @@ creation_date: 2010-05-26T12:26:48Z
 [Term]
 id: LPT:0010380
 name: milk beta carotene content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of a carotenoid that is the most common precursor to vitamin A" [ISBN:0-8036-0655-9, VTO:INRA]
+def: "The proportion or amount in milk of a carotenoid that is the most common precursor to vitamin A." [ISBN:0-8036-0655-9, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk beta carotene concentration" RELATED []
@@ -3652,7 +3754,7 @@ creation_date: 2010-05-26T01:12:38Z
 [Term]
 id: LPT:0010382
 name: milk triglyceride content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of this molecule, glycerol esterified at each of its three hydroxyl groups by a fatty acid" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of this molecule, glycerol esterified at each of its three hydroxyl groups by a fatty acid." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk triacylglycerol concentration" EXACT []
@@ -3665,7 +3767,7 @@ creation_date: 2010-05-26T01:25:32Z
 [Term]
 id: LPT:0010383
 name: milk cholesterol content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of these precursors to steroid hormones and bile salts; also components of plasma membranes" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of these precursors to steroid hormones and bile salts; also components of plasma membranes." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk cholesterol concentration" RELATED []
@@ -3677,7 +3779,7 @@ creation_date: 2010-05-26T01:28:32Z
 [Term]
 id: LPT:0010384
 name: milk cholesterol ester content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of a compound formed by the combination of cholesterol and a fatty acid" [ATOL:0000713, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of a compound formed by the combination of cholesterol and a fatty acid." [ATOL:0000713, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk cholesterol ester concentration" RELATED []
@@ -3690,7 +3792,7 @@ creation_date: 2010-05-26T01:49:37Z
 [Term]
 id: LPT:0010385
 name: milk diacylglycerol content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of glycerol with two esterified acyl moieties" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of glycerol with two esterified acyl moieties." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk diacylglycerol concentration" RELATED []
@@ -3702,7 +3804,7 @@ creation_date: 2010-05-26T01:49:37Z
 [Term]
 id: LPT:0010386
 name: milk monoacylglycerol content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of glycerol with an acyl moiety esterified to position 1 or 2; an intermediate in the degradation and synthesis of lipids" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of glycerol with an acyl moiety esterified to position 1 or 2; an intermediate in the degradation and synthesis of lipids." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk monoacylglycerol concentration" RELATED []
@@ -3714,7 +3816,7 @@ creation_date: 2010-05-26T01:49:37Z
 [Term]
 id: LPT:0010387
 name: milk phospholipid content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of the fat derivatives in which one fatty acid has been replaced by a phosphate group" [ATOL:0000716, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of the fat derivatives in which one fatty acid has been replaced by a phosphate group." [ATOL:0000716, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk phospholipid concentration" RELATED []
@@ -3726,7 +3828,7 @@ creation_date: 2010-05-26T01:49:37Z
 [Term]
 id: LPT:0010388
 name: milk polyphenol content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of compounds containing more than one phenol group" [ATOL:0000717, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of compounds containing more than one phenol group." [ATOL:0000717, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk polyphenol concentration" RELATED []
@@ -3866,7 +3968,7 @@ creation_date: 2010-05-26T03:55:58Z
 [Term]
 id: LPT:0010399
 name: milk urea content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of the chief end product of nitrogen metabolism in mammals" [ISBN:0-683-40008-8, VTO:INRA]
+def: "The proportion or amount in milk of the chief end product of nitrogen metabolism in mammals." [ISBN:0-683-40008-8, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3879,7 +3981,7 @@ creation_date: 2010-05-26T03:59:27Z
 [Term]
 id: LPT:0010400
 name: milk ammonia content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of an alkaline gas formed by decomposition of nitrogen-containing substances such as proteins and amino acids" [ISBN:0-8036-0655-9, VTO:INRA]
+def: "The proportion or amount in milk of an alkaline gas formed by decomposition of nitrogen-containing substances such as proteins and amino acids." [ISBN:0-8036-0655-9, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -4645,7 +4747,7 @@ def: "any measurable or observable characteristic related to the proportion or a
 subset: slim_cattle
 subset: slim_pig
 synonym: "meat fatty acid cis-9-C16:1 concentration" RELATED []
-synonym: "meat fatty acid cis-9-C18:1 percentage" RELATED []
+synonym: "meat fatty acid cis-9-C16:1 percentage" RELATED []
 synonym: "meat palmitoleic acid content" EXACT []
 is_a: LPT:0000012 ! meat monounsaturated fatty acid content
 created_by: caripark
@@ -4691,7 +4793,7 @@ creation_date: 2008-11-10T10:20:24Z
 [Term]
 id: LPT:1000072
 name: milk somatic cell count
-def: "any measurable or observable characteristic related to the number of somatic cells (leukocytes and epithelial cells) present in milk; a high count is an indicator of mastitis" [VTO:CP]
+def: "The number of somatic cells (leukocytes and epithelial cells) present in milk; a high count is an indicator of mastitis." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -4765,7 +4867,7 @@ creation_date: 2008-11-10T02:40:37Z
 [Term]
 id: LPT:1000161
 name: milk fat content
-def: "any measurable or observable characteristic related to the proportion or amount of fat in milk" [VTO:CP]
+def: "The proportion or amount of fat in milk." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -4778,7 +4880,7 @@ creation_date: 2008-11-10T02:43:21Z
 [Term]
 id: LPT:1000165
 name: milk protein content
-def: "any measurable or observable characteristic related to the proportion or amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage" [ISBN:0-683-40008-8, VTO:CP]
+def: "The proportion or amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage." [ISBN:0-683-40008-8, VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -5334,7 +5436,7 @@ creation_date: 2009-05-06T09:06:13Z
 [Term]
 id: LPT:1000722
 name: milk energy yield
-def: "any measurable or observable characteristic related to the total energy content of milk; may be based on a combination of fat, protein, lactose, ash, and water content" [VTO:CP]
+def: "The total energy content of milk; may be based on a combination of fat, protein, lactose, ash, and water content." [VTO:CP]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
