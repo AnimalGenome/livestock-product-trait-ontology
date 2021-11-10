@@ -4,8 +4,7 @@ The <a href="https://www.animalgenome.org/bioinfo/projects/lpt/">Livestock Produ
 
 The latest version of the new data release is located in "current_release".
 
-The LPT is protected with <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commo
-ns Attribution Non-commercial 4.0 International License</a>.
+The LPT is protected with <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution Non-commercial 4.0 International License</a>.
 
 Project home: https://www.animalgenome.org/bioinfo/projects/lpt/
 
