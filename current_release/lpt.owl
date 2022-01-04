@@ -11,7 +11,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:12:2021 09:09</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16:12:2021 12:58</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:saved-by>
@@ -4408,6 +4408,115 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/LPT_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010373"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk of all isomers of the fatty acid with a 17-carbon backbone and 1 double bond.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-16T10:30:48Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk heptadecenoic acid content</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPT:0000192</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk fatty acid C17:1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LPT_0000192"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk of all isomers of the fatty acid with a 17-carbon backbone and 1 double bond.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTO:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LPT_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010322"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010374"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of a fatty acid with an 18-carbon backbone, cis double bonds C-9 and C-15, and a trans double bond at C-11.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-16T10:33:37Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk cis-9,trans-11,cis-15-octadecatrienoic acid content</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPT:0000193</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk fatty acid cis-9,trans-11,cis-15-C18:3 content</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LPT_0000193"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of a fatty acid with an 18-carbon backbone, cis double bonds C-9 and C-15, and a trans double bond at C-11.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTO:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LPT_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010322"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010374"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk of a fatty acid with an 18-carbon backbone and cis double bonds at C-6, 9, 12, and 15.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-16T10:39:34Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk cis-6,9,12,15-octadecatetraenoic acid content</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPT:0000194</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk fatty acid cis-6,9,12,15-C18:4 content</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LPT_0000194"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk of a fatty acid with an 18-carbon backbone and cis double bonds at C-6, 9, 12, and 15.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTO:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LPT_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010323"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010374"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of a fatty acid with a 22-carbon backbone and cis double bonds at C-7,10, 13, and 16.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-16T10:48:16Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk cis-7,10,13,16-docosatetraenoic acid content</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPT:0000195</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk fatty acid cis-7,10,13,16-C22:4 content</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LPT_0000195"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of a fatty acid with a 22-carbon backbone and cis double bonds at C-7,10, 13, and 16.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTO:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LPT_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010323"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010373"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-12.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-16T11:16:35Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk trans-12-octadecenoic acid content</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPT:0000196</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk fatty acid trans-12-C18:1 content</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LPT_0000196"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-12.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTO:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/LPT_0004047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0004047">
@@ -7028,6 +7137,7 @@ Sheep: head, hide, digestive tract, internal organs, hooves (from epiphyseal pla
     <!-- http://purl.obolibrary.org/obo/LPT_0010346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0010346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010322"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010374"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-11, and a cis double bond at C-15.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
@@ -7058,6 +7168,7 @@ Sheep: head, hide, digestive tract, internal organs, hooves (from epiphyseal pla
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LPT_0010347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010321"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010322"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LPT_0010374"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proportion or amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and trans double bonds at C-11 and C-15.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caripark</oboInOwl:created_by>
