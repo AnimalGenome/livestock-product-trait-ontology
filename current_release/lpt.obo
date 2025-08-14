@@ -1,13 +1,17 @@
 format-version: 1.2
-data-version: 4.3
-date: 21:12:2022 13:13
+data-version: releases/2025-08-13
 saved-by: caripark
-auto-generated-by: OBO-Edit 2.3.1
 subsetdef: slim_cattle "ATO Cattle Slim"
 subsetdef: slim_chkn "ATO Chicken Slim"
 subsetdef: slim_pig "ATO Pig Slim"
 subsetdef: slim_sheep "ATO Sheep Slim"
 default-namespace: Product.ontology
+ontology: lpt
+property_value: http://purl.org/dc/elements/1.1/description "The Livestock Product Trait Ontology is a controlled vocabulary for the description of traits (measurable or observable characteristics) pertaining to products produced by or obtained from the body of an agricultural animal or bird maintained for use and profit." xsd:string
+property_value: http://purl.org/dc/elements/1.1/language "English" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "The Livestock Product Trait Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
+property_value: owl:versionInfo "2025-08-13" xsd:string
 
 [Term]
 id: ID:0000000
@@ -29,7 +33,7 @@ subset: slim_sheep
 [Term]
 id: LPT:0000002
 name: milk alpha-casein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of the alpha fraction of the casein phosphoprotein." [VTO:CP]
+def: "The proportion or amount in milk of the alpha fraction of the casein phosphoprotein." [VTO:CP]
 is_a: LPT:0010280 ! milk casein content
 created_by: caripark
 creation_date: 2011-10-21T11:11:08Z
@@ -1989,6 +1993,7 @@ id: LPT:0000194
 name: milk fatty acid cis-6,9,12,15-C18:4 content
 def: "The proportion or amount in milk of a fatty acid with an 18-carbon backbone and cis double bonds at C-6, 9, 12, and 15." [VTO:CP]
 synonym: "milk cis-6,9,12,15-octadecatetraenoic acid content" EXACT []
+is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010322 ! milk omega-3 fatty acid content
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
 created_by: caripark
@@ -1999,6 +2004,7 @@ id: LPT:0000195
 name: milk fatty acid cis-7,10,13,16-C22:4 content
 def: "The proportion or amount in milk fat of a fatty acid with a 22-carbon backbone and cis double bonds at C-7,10, 13, and 16." [VTO:CP]
 synonym: "milk cis-7,10,13,16-docosatetraenoic acid content" EXACT []
+is_a: LPT:0000177 ! milk cis fatty acid content
 is_a: LPT:0010323 ! milk omega-6 fatty acid content
 is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
 created_by: caripark
@@ -2069,7 +2075,6 @@ synonym: "milk alpha-lactalbumin concentration" RELATED []
 xref: ATOL:0000541
 xref: ATOL:0002079
 is_a: LPT:0010002 ! egg flavor trait
-is_a: LPT:1000165 ! milk protein content
 created_by: caripark
 creation_date: 2012-10-17T11:39:54Z
 
@@ -2244,7 +2249,7 @@ creation_date: 2010-05-20T03:34:56Z
 [Term]
 id: LPT:0010266
 name: milk beta-lactoglobulin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of beta-lactoglobulin, which may bind retinol; this milk constituent is allergenic." [ATOL:0000598, VTO:INRA]
+def: "The proportion or amount in milk of beta-lactoglobulin, which may bind retinol; this milk constituent is allergenic." [ATOL:0000598, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk beta-lactoglobulin concentration" RELATED []
@@ -2256,7 +2261,7 @@ creation_date: 2010-05-20T04:06:39Z
 [Term]
 id: LPT:0010267
 name: milk whey acidic protein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of whey acidic protein (WAP), a major protein of whey in rodents and rabbits (as well as marsupials), which belongs to the four disulfide core family." [ATOL:0000599, VTO:INRA]
+def: "The proportion or amount in milk of whey acidic protein (WAP), a major protein of whey in rodents and rabbits (as well as marsupials), which belongs to the four disulfide core family." [ATOL:0000599, VTO:INRA]
 subset: slim_pig
 synonym: "milk WAP content" RELATED []
 synonym: "milk whey acidic protein concentration" RELATED []
@@ -2268,7 +2273,7 @@ creation_date: 2010-05-20T04:09:37Z
 [Term]
 id: LPT:0010268
 name: milk lactoferrin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of lactoferrin, a globular multifunctional protein with antimicrobial activity; part of innate defense." [ATOL:0000600, VTO:INRA]
+def: "The proportion or amount in milk of lactoferrin, a globular multifunctional protein with antimicrobial activity; part of innate defense." [ATOL:0000600, VTO:INRA]
 subset: slim_cattle
 synonym: "milk lactoferrin concentration" RELATED []
 xref: ATOL:0000600
@@ -2357,7 +2362,7 @@ creation_date: 2010-05-21T10:43:34Z
 [Term]
 id: LPT:0010275
 name: milk hormone content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of any substance, usually a peptide or steroid, that has a specific metabolic regulatory effect on the activity or behavior of cells expressing a receptor for the hormone." [MGI:MP, VTO:INRA]
+def: "The proportion or amount in milk of any substance, usually a peptide or steroid, that has a specific metabolic regulatory effect on the activity or behavior of cells expressing a receptor for the hormone." [MGI:MP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2371,7 +2376,7 @@ creation_date: 2010-05-21T11:21:36Z
 [Term]
 id: LPT:0010276
 name: milk steroid content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of members of the hormone family that includes estrogens, progesterone, glucocorticoids, and androgens." [ATOL:0000608, VTO:INRA]
+def: "The proportion or amount in milk of members of the hormone family that includes estrogens, progesterone, glucocorticoids, and androgens." [ATOL:0000608, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk steroid concentration" RELATED []
@@ -2383,7 +2388,7 @@ creation_date: 2010-05-21T11:26:27Z
 [Term]
 id: LPT:0010277
 name: milk leptin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of the peptide hormone secreted by white adipocytes and believed to regulate food intake and energy balance." [ATOL:0000609, MGI:MP, VTO:INRA]
+def: "The proportion or amount in milk of the peptide hormone secreted by white adipocytes and believed to regulate food intake and energy balance." [ATOL:0000609, MGI:MP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk leptin concentration" RELATED []
@@ -2395,7 +2400,7 @@ creation_date: 2010-05-21T11:26:27Z
 [Term]
 id: LPT:0010279
 name: milk growth factor content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of any factors which promote cell proliferation." [ATOL:0000611, VTO:INRA]
+def: "The proportion or amount in milk of any factors which promote cell proliferation." [ATOL:0000611, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk growth factor concentration" RELATED []
@@ -2407,7 +2412,7 @@ creation_date: 2010-05-21T11:26:27Z
 [Term]
 id: LPT:0010280
 name: milk casein content
-def: "Any measurable or observable characteristic related to the proportion or amount of casein, the predominant phosphoprotein in milk." [ATOL:0000612, VTO:INRA]
+def: "The proportion or amount of casein, the predominant phosphoprotein in milk." [ATOL:0000612, VTO:INRA]
 comment: accounts for nearly 80% of the protein in cow's milk and cheese
 subset: slim_cattle
 synonym: "milk casein concentration" RELATED []
@@ -2419,7 +2424,7 @@ creation_date: 2010-05-21T12:20:10Z
 [Term]
 id: LPT:0010281
 name: milk alpha-S1-casein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of the most abundant casein in the milk of ruminants and rabbits." [ATOL:0000613, VTO:INRA]
+def: "The proportion or amount in milk of the most abundant casein in the milk of ruminants and rabbits." [ATOL:0000613, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk alpha-S1-casein concentration" RELATED []
@@ -2431,7 +2436,7 @@ creation_date: 2010-05-21T12:27:38Z
 [Term]
 id: LPT:0010282
 name: milk alpha-S2-casein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of alpa-S2-casein, a minor form of casein." [ATOL:0000614, VTO:INRA]
+def: "The proportion or amount in milk of alpa-S2-casein, a minor form of casein." [ATOL:0000614, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk alpha-S2-casein concentration" RELATED []
@@ -2443,7 +2448,7 @@ creation_date: 2010-05-21T12:27:38Z
 [Term]
 id: LPT:0010283
 name: milk kappa-casein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure; its concentration determines micellar size." [ATOL:0000615, VTO:INRA]
+def: "The proportion or amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure; its concentration determines micellar size." [ATOL:0000615, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk kappa-casein concentration" RELATED []
@@ -2455,7 +2460,7 @@ creation_date: 2010-05-21T12:27:38Z
 [Term]
 id: LPT:0010284
 name: milk beta-casein content
-def: "Any measurable or observable characteristic related to the proportion or amount of the beta fraction of the casein phosphoprotein in milk." [ATOL:0000716, VTO:INRA]
+def: "The proportion or amount of the beta fraction of the casein phosphoprotein in milk." [ATOL:0000716, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk beta-casein concentration" RELATED []
@@ -2481,7 +2486,7 @@ creation_date: 2010-05-21T02:13:16Z
 [Term]
 id: LPT:0010286
 name: milk lactose yield
-def: "Any measurable or observable characteristic related to the total amount in milk of lactose, which is the major sugar found in colostrum and milk; it is composed of a molecule of glucose and a molecule of galactose." [ATOL:0000618, VTO:INRA]
+def: "The total amount in milk of lactose, which is the major sugar found in colostrum and milk; it is composed of a molecule of glucose and a molecule of galactose." [ATOL:0000618, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2494,7 +2499,7 @@ creation_date: 2010-05-21T02:22:29Z
 [Term]
 id: LPT:0010287
 name: milk lactose content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of lactose, the major sugar found in colostrum and milk; it is composed of one molecule of glucose and one molecule of galactose." [ATOL:0000619, VTO:INRA]
+def: "The proportion or amount in milk of lactose, the major sugar found in colostrum and milk; it is composed of one molecule of glucose and one molecule of galactose." [ATOL:0000619, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -2851,7 +2856,7 @@ creation_date: 2010-05-24T09:22:09Z
 [Term]
 id: LPT:0010315
 name: milk fatty acid C14:0 content
-def: "The proportion or amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone." [ATOL:0000647, ATOL0000647:<new dbxref>, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone." [ATOL0000647:<new dbxref>, ATOL:0000647, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
@@ -3393,15 +3398,15 @@ def: "The proportion or amount in milk fat of an unsaturated fatty acid with an 
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
+synonym: "milk cis-9,trans-11-octadecadienoic acid content" EXACT []
 synonym: "milk fatty acid cis-9,trans-11-C18:2 concentration" RELATED []
 synonym: "milk fatty acid cis-9,trans-11-C18:2 percentage" RELATED []
 synonym: "milk rumenic acid concentration" RELATED []
 synonym: "milk rumenic acid content" EXACT []
 synonym: "milk rumenic acid percentage" RELATED []
-synonym: "milkcis-9,trans-11-octadecadienoic acid content" EXACT []
 xref: ATOL:0000680
 is_a: LPT:0010321 ! milk trans fatty acid content
-is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
+is_a: LPT:0010324 ! milk conjugated linoleic acid content
 created_by: caripark
 creation_date: 2010-05-24T02:18:24Z
 
@@ -3475,7 +3480,8 @@ subset: slim_sheep
 synonym: "milk fatty acid trans-10,cis-12-C18:2 concentration" RELATED []
 synonym: "milk fatty acid trans-10,cis-12-C18:2 percentage" RELATED []
 xref: ATOL:0000685
-is_a: LPT:0010374 ! milk polyunsaturated fatty acid content
+is_a: LPT:0010321 ! milk trans fatty acid content
+is_a: LPT:0010324 ! milk conjugated linoleic acid content
 created_by: caripark
 creation_date: 2010-05-24T02:18:24Z
 
@@ -3708,6 +3714,8 @@ def: "The proportion or amount in milk fat of an unsaturated, omega-3 fatty acid
 subset: slim_cattle
 subset: slim_pig
 subset: slim_sheep
+synonym: "milk alpha-linolenic acid content" EXACT []
+synonym: "milk cis-9,12,15-octadecatrienoic acid content" EXACT []
 synonym: "milk fatty acid C18:3 n-3 concentration" RELATED []
 synonym: "milk fatty acid C18:3 n-3 content" RELATED []
 synonym: "milk fatty acid C18:3 n-3 percentage" RELATED []
@@ -3898,8 +3906,8 @@ def: "The proportion or amount in milk of a compound formed by the combination o
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk cholesterol ester concentration" RELATED []
-xref: ATOL:0000713
 xref: ATOL0000713:<new xref>
+xref: ATOL:0000713
 is_a: LPT:0010261 ! milk fat composition trait
 created_by: caripark
 creation_date: 2010-05-26T01:49:37Z
@@ -3955,7 +3963,7 @@ creation_date: 2010-05-26T01:49:37Z
 [Term]
 id: LPT:0010389
 name: milk butyrophilin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000718, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000718, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk BTN concentration" EXACT []
@@ -3969,7 +3977,7 @@ creation_date: 2010-05-26T02:42:38Z
 [Term]
 id: LPT:0010390
 name: milk xanthine oxidoreductase content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000719, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000719, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk xanthine oxidoreductase concentration" RELATED []
@@ -3983,7 +3991,7 @@ creation_date: 2010-05-26T02:42:38Z
 [Term]
 id: LPT:0010391
 name: milk adipophilin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000720, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of one of the three predominant proteins in the milk fat globule membrane." [ATOL:0000720, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk adipophilin concentration" RELATED []
@@ -3997,7 +4005,7 @@ creation_date: 2010-05-26T02:42:38Z
 [Term]
 id: LPT:0010392
 name: milk mucin 1 content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of a cell-surface associated mucin protein." [ATOL:0000721, VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of a cell-surface associated mucin protein." [ATOL:0000721, VTO:CP, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk MUC1 concentration" EXACT []
@@ -4011,7 +4019,7 @@ creation_date: 2010-05-26T02:55:09Z
 [Term]
 id: LPT:0010393
 name: milk CD36 molecule content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of this integral membrane protein." [VTO:INRA]
+def: "The proportion or amount in milk of this integral membrane protein." [VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk CD36 molecule concentration" RELATED []
@@ -4048,7 +4056,7 @@ creation_date: 2010-05-27T09:55:44Z
 [Term]
 id: LPT:0010396
 name: milk stomatin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of this integral membrane protein." [ATOL:0000725, VTO:INRA]
+def: "The proportion or amount in milk of this integral membrane protein." [ATOL:0000725, VTO:INRA]
 subset: slim_cattle
 synonym: "milk stomatin concentration" RELATED []
 xref: ATOL:0000725
@@ -4059,7 +4067,7 @@ creation_date: 2010-05-26T03:24:19Z
 [Term]
 id: LPT:0010397
 name: milk fat globule-EGF factor 8 protein content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of this integrin-binding protein found in milk fat globules." [VTO:CP, VTO:INRA]
+def: "The proportion or amount in milk of this integrin-binding protein found in milk fat globules." [VTO:CP, VTO:INRA]
 subset: slim_cattle
 synonym: "milk fat globule-EGF factor 8 protein concentration" RELATED []
 synonym: "milk lactadherin concentration" EXACT []
@@ -4071,7 +4079,7 @@ creation_date: 2010-05-26T03:31:59Z
 [Term]
 id: LPT:0010398
 name: milk plasmin content
-def: "Any measurable or observable characteristic related to the proportion or amount in milk of a fibrinolytic enzyme derived from the precursor plasminogen." [ISBN:0-8036-0655-9, VTO:INRA]
+def: "The proportion or amount in milk of a fibrinolytic enzyme derived from the precursor plasminogen." [ISBN:0-8036-0655-9, VTO:INRA]
 subset: slim_cattle
 subset: slim_pig
 synonym: "milk plasmin concentration" RELATED []
@@ -4809,6 +4817,8 @@ id: LPT:0010467
 name: meat fatty acid C18:3(n-3) content
 def: "Any measurable or observable characteristic related to the proportion or amount of an omega-3, polyunsaturated fatty acid (C18H30O2), with three carbon-carbon double bonds, present in meat." [VTO:CP]
 subset: slim_pig
+synonym: "meat alpha-linolenic acid content" EXACT []
+synonym: "meat cis-9,12,15-octadecatrienoic acid content" EXACT []
 synonym: "meat fatty acid C18:3 n-3 concentration" RELATED []
 synonym: "meat fatty acid C18:3 n-3 content" EXACT []
 synonym: "meat fatty acid C18:3 n-3 percentage" RELATED []
@@ -4895,6 +4905,142 @@ synonym: "meat vaccenic acid content" EXACT []
 is_a: LPT:0000012 ! meat monounsaturated fatty acid content
 created_by: caripark
 creation_date: 2010-08-20T09:16:29Z
+
+[Term]
+id: LPT:0010474
+name: meat fatty acid cis-9-C17:1 content
+def: "Any measurable or observable characteristic related to the proportion or amount in meat of a monounsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-9." [VTO:CP]
+synonym: "meat cis-9-heptadecenoic acid content" EXACT []
+is_a: LPT:0000012 ! meat monounsaturated fatty acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T16:33:15Z xsd:dateTime
+
+[Term]
+id: LPT:0010475
+name: meat fatty acid C22:2 content
+def: "Any measurable or observable characteristic related to the proportion or amount of an unsaturated fatty acid (C22H40O2), with two carbon-carbon double bonds, present in meat." [VTO:CP]
+synonym: "meat docosadienoic acid content" EXACT []
+is_a: LPT:0000020 ! meat polyunsaturated fatty acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T16:42:50Z xsd:dateTime
+
+[Term]
+id: LPT:0010476
+name: meat fatty acid C17:1 content
+def: "The proportion or amount in meat of all isomers of the fatty acid with a 17-carbon backbone and 1 double bond." [VTO:CP]
+synonym: "meat heptadecenoic acid content" EXACT []
+is_a: LPT:0000012 ! meat monounsaturated fatty acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T16:46:41Z xsd:dateTime
+
+[Term]
+id: LPT:0010477
+name: milk cyclophilin A content
+def: "The proportion or amount in milk of cyclophilin A, a peptidylprolyl isomerase involved in immunoregulation." [MeSH:D021984]
+is_a: LPT:1000165 ! milk protein content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:39:58Z xsd:dateTime
+
+[Term]
+id: LPT:0010478
+name: milk immunoglobulin content
+def: "The proportion or amount in milk of members of a diverse group of plasma proteins, made up of polypeptide chains, that function as a primary mechanism for protection against disease." [ISBN:0-8036-0655-9]
+synonym: "milk Ig content" EXACT []
+is_a: LPT:1000165 ! milk protein content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:44:04Z xsd:dateTime
+
+[Term]
+id: LPT:0010479
+name: milk immunoglobulin A content
+def: "The proportion or amount in milk of the principal immunoglobulin in exocrine secretions; prevents pathogens from invading the body through the mucosa of the gastrointestinal, pulmonary, and genitourinary tracts." [ISBN:0-8036-0655-9]
+synonym: "milk IgA content" EXACT []
+is_a: LPT:0010478 ! milk immunoglobulin content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:46:45Z xsd:dateTime
+
+[Term]
+id: LPT:0010480
+name: milk immunoglobulin G content
+def: "The proportion or amount in milk of the major antibody for antitoxins, viruses, and bacteria; also activates complement." [ISBN:0-8036-0655-9]
+synonym: "milk IgG content" EXACT []
+is_a: LPT:0010478 ! milk immunoglobulin content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:49:23Z xsd:dateTime
+
+[Term]
+id: LPT:0010481
+name: milk immunoglobulin G1 content
+def: "The proportion or amount in milk of immunoglobulin class G1." [MP:0008499]
+synonym: "milk IgG1 content" EXACT []
+is_a: LPT:0010480 ! milk immunoglobulin G content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:51:56Z xsd:dateTime
+
+[Term]
+id: LPT:0010482
+name: milk immunoglobulin G2 content
+def: "The proportion or amount in milk of immunoglobulin class G2." [MP:0013802]
+synonym: "milk IgG2 content" EXACT []
+is_a: LPT:0010480 ! milk immunoglobulin G content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T18:54:21Z xsd:dateTime
+
+[Term]
+id: LPT:0010483
+name: milk immunoglobulin M content
+def: "The proportion or amount in milk of this immunoglobulin formed during the early part of the immune response that is the most efficient antibody in stimulating complement activity." [ISBN:0-8036-1207-9]
+synonym: "milk IgM content" EXACT []
+is_a: LPT:0010478 ! milk immunoglobulin content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T20:19:37Z xsd:dateTime
+
+[Term]
+id: LPT:0010484
+name: milk stearoyl-CoA desaturase content
+def: "The proportion or amount in milk of this enzyme that catalyzes a rate-limiting step in unsaturated fatty acid synthesis, the formation of oleoyl-CoA." [MeSH:D013230]
+synonym: "milk delta-9 desaturase content" EXACT []
+synonym: "milk SCD-1 content" EXACT []
+is_a: LPT:1000165 ! milk protein content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T20:32:25Z xsd:dateTime
+
+[Term]
+id: LPT:0010485
+name: meat fatty acid C22:0 content
+def: "The proportion or amount in meat of a saturated fatty acid with a twenty-two-carbon backbone." [VTO:CP]
+synonym: "meat docosanoic acid content" EXACT []
+is_a: LPT:0010461 ! meat saturated fatty acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T20:48:12Z xsd:dateTime
+
+[Term]
+id: LPT:0010486
+name: meat fatty acid cis-9,trans-11-C18:2 content
+synonym: "meat bovinic acid content" EXACT []
+synonym: "meat cis-9,trans-11-octadecadienoic acid content" EXACT []
+synonym: "meat rumenic acid content" EXACT []
+is_a: LPT:0000038 ! meat conjugated linoleic acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T20:53:28Z xsd:dateTime
+
+[Term]
+id: LPT:0010487
+name: meat fatty acid trans-10,cis-12-C18:2 content
+def: "The proportion or amount in meat of an unsaturated fatty acid with an eighteen-carbon backbone, a trans double bond at C-10, and a cis double bond at C-12." [VTO:CP]
+synonym: "meat trans-10,cis-12-octadecadienoic acid content" EXACT []
+is_a: LPT:0000038 ! meat conjugated linoleic acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T21:35:44Z xsd:dateTime
+
+[Term]
+id: LPT:0010488
+name: meat fatty acid C23:0 content
+def: "The proportion or amount in meat of a saturated fatty acid with a twenty-three-carbon backbone." [VTO:CP]
+synonym: "meat tricosanoic acid content" EXACT []
+is_a: LPT:0010461 ! meat saturated fatty acid content
+property_value: http://purl.org/dc/terms/contributor http://orcid.org/0000-0002-2346-5201
+property_value: http://purl.org/dc/terms/date 2025-08-13T21:46:30Z xsd:dateTime
 
 [Term]
 id: LPT:1000015
